@@ -2,6 +2,9 @@ apt-get -y update
 
 apt-get -y install nginx
 
+mkdir /data
+mkdir /data/www
+
 echo -e "server {\n
     location / {\n
         root /data/www;\n
