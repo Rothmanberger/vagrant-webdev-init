@@ -8,7 +8,7 @@ Vagrant file for a web development environment. Requires Vagrant to be installed
 
 ### Install
 1. Pull the repository to host machine
-2. Navigate to the directory in the terminal
+2. Navigate to the directory in the terminal, and enter the command ```vagrant up```
 3. In your browser, go to [localhost:8080](http://localhost:8080) for a fat _yeet_
 
 ### Syncing Atom
@@ -26,7 +26,7 @@ Vagrant file for a web development environment. Requires Vagrant to be installed
      6. select 'privatekey'
      7. Provide the absolute filepath for vagrant-webdev-init/.vagrant/machines/default/virtualbox/private_key (e.g. C:/Users/Fisty/Documents/vagrant-webdev-init/.vagrant/machines/default/virtualbox/private_key)
      8. Check the box for uploadOnSave
-7. In Atom, right click on the empty folder again, select "Remote Sync -> 
-Download Folder". Wait while it syncs your remote folder down to the 
+7. In Atom, right click on the empty folder again, select "Remote Sync ->
+Download Folder". Wait while it syncs your remote folder down to the
 host.
 8. To test, edit the index.html file and check [localhost:8080](http://localhost:8080) for changes.
