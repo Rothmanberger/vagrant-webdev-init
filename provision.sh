@@ -5,6 +5,7 @@ apt-get -y install nginx
 mkdir /data
 mkdir /data/www
 chown -R vagrant:vagrant /data
+chmod -R o+x,g+x /data
 touch /data/www/index.html
 echo "<h1>yeet</h1>" > '/data/www/index.html'
 
