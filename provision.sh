@@ -4,6 +4,9 @@ apt-get -y install nginx
 
 mkdir /data
 mkdir /data/www
+touch /data/www/index.html
+echo "<h1>yeet</h1>" > '/data/www/index.html'
+
 
 echo -e "server {\n
     location / {\n
