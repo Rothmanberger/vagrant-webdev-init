@@ -1,6 +1,6 @@
 # vagrant-wbedev-init
 
-Vagrant file for a web development environment. Requires Vagrant to be installed on the host machine.
+Vagrant file for a web development environment. Requires Vagrant and VirtualBox to be installed on the host machine.
 * Creates Ubuntu 18.04 LTS server and updates
 * Forwards port 80 on guest machine to 8080 on the local machine
 * Installs Nginx and configures default root to ```/data/www```
